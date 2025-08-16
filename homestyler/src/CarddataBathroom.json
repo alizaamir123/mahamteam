@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Luxury Marble Bathroom",
+    "image": "/images/bt1.jpg",
+    "description": "Elegant marble with golden fittings, soft lighting, and a serene spa-like feel."
+  },
+  {
+    "title": "Minimalist White Bathroom",
+    "image": "/images/bt2.jpg",
+    "description": "Bright, airy design with clean lines and a calming palette."
+  },
+  {
+    "title": "Rustic Wooden Bathroom",
+    "image": "/images/bt3.webp",
+    "description": "Warm wood tones, stone textures, and natural finishes for rustic charm."
+  },
+  {
+    "title": "Modern Glass Shower",
+    "image": "/images/bt4.jpg",
+    "description": "Spacious glass shower with matte black fixtures and a rainfall head."
+  },
+  {
+    "title": "Spa-Inspired Bathroom",
+    "image": "/images/bt5.jpg",
+    "description": "Calming spa style with greenery, wood accents, and warm lighting."
+  }
+]

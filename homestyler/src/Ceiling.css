@@ -1,0 +1,157 @@
+/* Ceiling Hero Section */
+.ceiling.hero-section {
+  height: 70vh;
+  background: url("../public/images/herocei.jpg") center/cover no-repeat;
+  background-attachment: fixed; /* optional */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay */
+.ceiling.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Container inside hero */
+.ceiling.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading animation */
+.ceiling.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px rgb(202, 160, 92);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Full black background for the whole section */
+.search-sort-filter-container {
+  background-color: #000;
+  color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sort-label {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+
+.form-select,
+.form-control {
+  background-color: #111;
+  color: white;
+  border: 1px solid #555;
+}
+
+.form-select:focus,
+.form-control:focus {
+  background-color: #111;
+  color: white;
+  border-color: orange;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 18px;
+  }
+}
+
+/* Ceiling Section */
+.ceiling-section {
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.ceiling-card-section {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Card Styling */
+.ceiling-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10px;
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ceiling-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(255, 165, 0, 0.3);
+}
+
+/* Card Image */
+.ceiling-card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Product Name */
+.ceiling-product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Product Price */
+.ceiling-product-price {
+  color: orange;
+  font-weight: bold;
+  margin: 0 10px 10px;
+}
+
+/* Card Content */
+.ceiling-card-content {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Heart Icon Styling (Always Visible) */
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px; /* Bigger heart */
+  color: white;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  opacity: 1; /* Always visible */
+}
+
+.heart-icon:hover {
+  color: red;
+  transform: scale(1.2);
+}

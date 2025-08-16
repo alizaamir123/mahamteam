@@ -1,0 +1,105 @@
+/* Kitchen Hero Section */
+.kitchen.hero-section {
+  height: 70vh;
+  background: url("../public/images/herok.jpg") center/cover no-repeat;
+  background-attachment: fixed; /* optional */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay */
+.kitchen.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Container inside hero */
+.kitchen.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading animation */
+.kitchen.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px rgb(202, 160, 92);
+}
+/* Floating animation for product name */
+@keyframes floatHeading {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ===== Kitchen Card Section ===== */
+.kitchen-room-section {
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.kitchen-room-card-section {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.kitchen-room-card {
+  background: #1a1a1a;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 420px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid black; /* Default black border */
+}
+
+.kitchen-room-card:hover {
+  transform: scale(1.03);
+  border: 2px solid orange; /* Thin orange border on hover */
+}
+
+/* Image */
+.kitchen-room-card-image {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease;
+}
+
+/* Product Name below image */
+.kitchen-room-product-name {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: orange;
+  margin-top: 20px; /* Space from image */
+  animation: floatHeading 3s ease-in-out infinite;
+}
+
+/* Card Content */
+.kitchen-room-card-content {
+  padding: 15px;
+  font-size: 0.95rem;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .kitchen-room-card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .kitchen-room-card-section {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Classic Bedside Lamp",
+    "image": "/images/lamp1.jpg",
+    "price": "$120",
+    "description": "A timeless bedside table lamp with a soft fabric shade, perfect for cozy bedrooms."
+  },
+  {
+    "title": "Modern Glass Table Lamp",
+    "image": "/images/lamp2.jpg",
+    "price": "$180",
+    "description": "A sleek table lamp with a transparent glass base and white shade, ideal for modern interiors."
+  },
+  {
+    "title": "Vintage Brass Lamp",
+    "image": "/images/lamp3.jpg",
+    "price": "$150",
+    "description": "A decorative brass table lamp with intricate detailing, adding a vintage charm to your space."
+  },
+  {
+    "title": "Minimalist LED Lamp",
+    "image": "/images/lamp4.jpg",
+    "price": "$95",
+    "description": "A minimalist LED table lamp with adjustable brightness, perfect for study or work desks."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Cozy Minimalist Bedroom",
+    "image": "/images/bed1.jpg",
+    "description": "Minimal furniture, warm lighting, and a neutral palette for a peaceful retreat.",
+    "link": "/bedroom/minimalist"
+  },
+  {
+    "title": "Luxury Master Bedroom",
+    "image": "/images/bed2.webp",
+    "description": "Spacious master suite with plush bedding, modern furniture, and elegant finishes.",
+    "link": "/bedroom/luxury"
+  },
+  {
+    "title": "Rustic Wooden Bedroom",
+    "image": "/images/bed3.jpg",
+    "description": "Wood interiors, cozy blankets, and earthy tones for a warm, cabin feel.",
+    "link": "/bedroom/rustic"
+  },
+  {
+    "title": "Modern Urban Bedroom",
+    "image": "/images/bed4.jpg",
+    "description": "Sleek furniture, bold colors, and large windows for a chic city vibe.",
+    "link": "/bedroom/urban"
+  },
+  {
+    "title": "Scandinavian Style Bedroom",
+    "image": "/images/bed5.webp",
+    "description": "Light wood, white walls, and natural light for a calm, airy atmosphere.",
+    "link": "/bedroom/scandinavian"
+  },
+  {
+    "title": "Vintage Style Bedroom",
+    "image": "/images/bed6.jpg",
+    "description": "Antique furniture, pastels, and classic details for timeless charm.",
+    "link": "/bedroom/vintage"
+  }
+]

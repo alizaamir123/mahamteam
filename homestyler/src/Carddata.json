@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Calm Bedroom Suite",
+    "description": "Soft, elegant bedroom with cozy bedding and gentle lighting for relaxation.",
+    "image": "/images/li1.jpg"
+  },
+  {
+    "title": "Modern Office Space",
+    "description": "Bright, organized workspace with large windows and ergonomic furniture.",
+    "image": "/images/li2.jpg"
+  },
+  {
+    "title": "Luxury Living Room",
+    "description": "Elegant living room with plush seating, warm tones, and stylish décor.",
+    "image": "/images/li3.jpg"
+  },
+  {
+    "title": "Creative Studio",
+    "description": "Open-concept studio with vibrant details and flexible work areas.",
+    "image": "/images/li4.jpg"
+  },
+  {
+    "title": "Cozy Family Lounge",
+    "description": "Warm, inviting lounge with soft textures and comfortable seating.",
+    "image": "/images/li5.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Modern Grey Sofa",
+    "image": "/images/sofa1.jpg",
+    "price": "$450",
+    "description": "A sleek, modern grey sofa with plush cushions, perfect for contemporary living rooms."
+  },
+  {
+    "title": "Luxury Leather Sofa",
+    "image": "/images/sofa2.jpg",
+    "price": "$850",
+    "description": "A premium brown leather sofa with deep seating and elegant stitching for a luxurious feel."
+  },
+  {
+    "title": "Minimalist White Sofa",
+    "image": "/images/sofa3.jpg",
+    "price": "$520",
+    "description": "A clean-lined white sofa with a minimalist design, adding brightness to any space."
+  },
+  {
+    "title": "Vintage Velvet Sofa",
+    "image": "/images/sofa4.jpg",
+    "price": "$690",
+    "description": "A stylish green velvet sofa with classic curves, perfect for vintage-inspired interiors."
+  }
+]

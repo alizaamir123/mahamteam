@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Classic Wooden Dining Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRuQ_JKraQsb4uCqVqvRndpiqYlhkS3eJg7A&s",
+    "price": "$600",
+    "description": "A sturdy wooden dining table with a polished finish, ideal for family meals."
+  },
+  {
+    "title": "Glass Top Coffee Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBPlB16qtygflBk6uRfG2voMI1CTVEOcOfA&s",
+    "price": "$320",
+    "description": "A sleek coffee table with a tempered glass top and chrome legs for modern interiors."
+  },
+  {
+    "title": "Round Marble Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYw-fnCWNikB9hmXnOqdTzTPaD7T-3fsLGxg&s",
+    "price": "$750",
+    "description": "A luxurious round table with a white marble top, perfect for elegant spaces."
+  },
+  {
+    "title": "Expandable Dining Table",
+    "image": "https://images.squarespace-cdn.com/content/v1/5812668ec534a5b4a86aa7c9/1602075923517-I3J785K0VWRV3YWH66LW/IMG_3433.JPG",
+    "price": "$890",
+    "description": "A practical wooden dining table with expandable panels for extra seating when needed."
+  },
+  {
+    "title": "Rustic Farmhouse Table",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJN2nKDe1zu4OBwTK0Gt0Q_NvZXc-vFPC1-w&s",
+    "price": "$670",
+    "description": "A rustic farmhouse-style wooden table with a weathered finish, great for cozy dining rooms."
+  },
+  {
+    "title": "Modern Minimalist Table",
+    "image": "https://brabbu.com/blog/wp-content/uploads/2014/10/Easy-Halloween-dining-room-decorating-ideas-decoration-spooky-indoor-halloween-dining-room-decorations.jpg",
+    "price": "$540",
+    "description": "A clean, modern table with straight lines and a smooth surface, perfect for minimal interiors."
+  }
+]

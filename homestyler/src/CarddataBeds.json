@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Modern Platform Bed",
+    "image": "/images/bed1.jpg",
+    "price": "$780",
+    "description": "A low-profile modern platform bed with a sleek wooden frame and upholstered headboard."
+  },
+  {
+    "title": "Luxury King Bed",
+    "image": "/images/bed2.webp",
+    "price": "$1,250",
+    "description": "A spacious king-sized bed with a tufted velvet headboard, perfect for master bedrooms."
+  },
+  {
+    "title": "Minimalist Single Bed",
+    "image": "/images/bed3.jpg",
+    "price": "$420",
+    "description": "A compact single bed with a clean-lined wooden frame, ideal for small rooms or guest spaces."
+  },
+  {
+    "title": "Classic Wooden Bed",
+    "image": "/images/bed4.jpg",
+    "price": "$950",
+    "description": "A timeless solid wood bed with carved details, offering durability and classic style."
+  },
+  {
+    "title": "Storage Bed with Drawers",
+    "image": "/images/bed5.webp",
+    "price": "$1,100",
+    "description": "A modern bed with built-in underbed storage drawers, combining functionality with comfort."
+  }
+]

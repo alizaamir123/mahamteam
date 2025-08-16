@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Modern LED Ceiling Light",
+    "image": "https://m.media-amazon.com/images/I/81J7f8alAyL.jpg",
+    "price": "$200",
+    "description": "A sleek LED ceiling light with a minimalist design, ideal for modern living rooms."
+  },
+  {
+    "title": "Vintage Chandelier",
+    "image": "https://glowe-studio.com/cdn/shop/files/Plafonnier-salon-design-ZEUS-Glowe-Studio-Or-130-cm-Glowe-Studio.webp?v=1751895990",
+    "price": "$550",
+    "description": "An elegant vintage chandelier with crystal detailing, perfect for dining rooms or entryways."
+  },
+  {
+    "title": "Round Flush Mount Ceiling Light",
+    "image": "https://m.media-amazon.com/images/I/61kz8sWtfQL._AC_SL1100_.jpg",
+    "price": "$120",
+    "description": "A compact flush mount light with warm LED glow, suitable for bedrooms or hallways."
+  },
+  {
+    "title": "Smart RGB Ceiling Panel",
+    "image": "https://m.media-amazon.com/images/I/51LRkvLCDCL.jpg",
+    "price": "$350",
+    "description": "Wi-Fi enabled RGB ceiling panel with adjustable colors and brightness via mobile app."
+  },
+  {
+    "title": "Rustic Wooden Ceiling Fixture",
+    "image": "https://www.overshopping.pk/images/uploads/garwarm-modern-ceiling-light-23-6adimmable-led-chandelierTaIkkOsSACSL.jpg",
+    "price": "$275",
+    "description": "A wooden ceiling fixture with vintage bulb sockets, ideal for rustic or farmhouse interiors."
+  },
+  {
+    "title": "Minimalist Square LED Ceiling Light",
+    "image": "https://buynblue.com/cdn/shop/files/Deckenlampe-Halo-Modern-BUYnBLUE-5624.jpg?v=1726440510&width=1600",
+    "price": "$180",
+    "description": "A minimalist square LED ceiling light providing bright and even illumination."
+  }
+]

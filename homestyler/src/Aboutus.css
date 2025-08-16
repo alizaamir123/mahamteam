@@ -1,0 +1,205 @@
+/* About Hero Section */
+.about.hero-section {
+  height: 70vh;
+  background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2)),
+              url("../public/images/heroa.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.about.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Keep original heading style */
+.about.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  color: white;
+  text-shadow: 5px 5px 20px rgb(202, 160, 92);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Our Story Section */
+.our-story-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+}
+
+/* Story Heading */
+.story-text h2 {
+  font-size: 2.8rem;
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px orange;
+}
+
+.story-text p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 18px;
+}
+
+/* Highlight Line */
+.highlight-text {
+  font-size: 1.25rem;
+  color: orange;
+  font-weight: 600;
+  border-left: 4px solid orange;
+  padding-left: 10px;
+}
+
+/* Floating Image */
+.floating-image {
+  animation: float 4s ease-in-out infinite;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.tall-image {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Text Animation */
+.story-text {
+  animation: fadeInUp 1.2s ease-in-out both;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Mission & Values Section */
+.mission-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #2c2c2c, #000000);
+}
+
+/* Mission Heading */
+.mission-text h2 {
+  font-size: 2.8rem;
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px orange;
+}
+
+/* Mission Paragraphs */
+.mission-text p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 18px;
+}
+
+/* Mission List */
+.mission-text ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.mission-text ul li {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Highlight keywords in list */
+.mission-text ul li strong {
+  color: orange;
+}
+
+/* Mission Image Styling */
+/* Mission Image Styling */
+.mission-image {
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  animation: float 4s ease-in-out infinite;
+  max-height: 550px; /* Increased from 500px */
+  width: 100%; /* Ensure it takes up full width in its column */
+  object-fit: cover;
+}
+
+
+/* Text Animation */
+.mission-text {
+  animation: fadeInUp 1.2s ease-in-out both;
+}
+
+/* Reuse Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Ending Section */
+.ending-section {
+  padding: 80px 20px;
+  background: linear-gradient(180deg, #000000, #1a1a1a);
+  color: white;
+}
+
+/* Heading */
+.ending-section h2 {
+  font-size: 2.8rem;
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px orange;
+  animation: fadeInUp 1.2s ease-in-out both;
+}
+
+/* Paragraphs */
+.ending-section p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 15px;
+  animation: fadeInUp 1.5s ease-in-out both;
+}
+
+/* Button Styling */
+.ending-section .btn-warning {
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  box-shadow: 0 5px 20px rgba(255, 165, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ending-section .btn-warning:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 165, 0, 0.6);
+}

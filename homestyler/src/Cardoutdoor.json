@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Classic Outdoor Wall Lantern",
+    "image": "/images/outdoor1.jpg",
+    "price": "$75",
+    "description": "A stylish outdoor wall lantern with a weather-resistant finish, perfect for porches and patios."
+  },
+  {
+    "title": "Modern Garden Spike Light",
+    "image": "/images/outdoor2.jpg",
+    "price": "$55",
+    "description": "Durable spike light for gardens and pathways, providing warm ambient lighting."
+  },
+  {
+    "title": "LED Flood Light",
+    "image": "/images/outdoor3.jpg",
+    "price": "$120",
+    "description": "High-brightness LED flood light for outdoor security and large open spaces."
+  },
+  {
+    "title": "Solar Pathway Light Set",
+    "image": "/images/outdoor4.jpg",
+    "price": "$60",
+    "description": "Eco-friendly solar-powered pathway lights for gardens and walkways."
+  },
+  {
+    "title": "Vintage Hanging Outdoor Lantern",
+    "image": "/images/outdoor5.jpg",
+    "price": "$95",
+    "description": "Rustic hanging lantern with a vintage design, ideal for patios and gazebos."
+  },
+  {
+    "title": "Smart Outdoor Wall Light",
+    "image": "/images/outdoor6.jpg",
+    "price": "$150",
+    "description": "Wi-Fi enabled smart wall light with adjustable brightness and app control."
+  }
+]

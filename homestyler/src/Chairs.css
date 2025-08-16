@@ -1,0 +1,154 @@
+/* Chairs Hero Section */
+.chairs.hero-section {
+  height: 70vh;
+  background: url("../public/images/herocha.webp") center/cover no-repeat;
+  background-attachment: fixed; /* optional */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay */
+.chairs.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Container inside hero */
+.chairs.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading animation */
+.chairs.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px rgb(202, 160, 92);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Full black background for the whole section */
+.search-sort-filter-container {
+  background-color: #000;
+  color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sort-label {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+
+.form-select, .form-control {
+  background-color: #111;
+  color: white;
+  border: 1px solid #555;
+}
+
+.form-select:focus, .form-control:focus {
+  background-color: #111;
+  color: white;
+  border-color: orange;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 18px;
+  }
+}
+
+.chair-section {
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.chair-card-section {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Chair card styling with animation */
+.chair-card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chair-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(255, 165, 0, 0.3);
+}
+
+.chair-card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+}
+
+.chair-card:hover .chair-card-image {
+  transform: scale(1.05);
+}
+
+.chair-product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.chair-product-price {
+  color: orange;
+  font-weight: bold;
+  margin: 0 10px 10px;
+}
+
+.chair-card-content {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Heart icon styling */
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.heart-icon:hover {
+  color: red;
+  transform: scale(1.2);
+}

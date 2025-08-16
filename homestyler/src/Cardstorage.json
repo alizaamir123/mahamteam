@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Wooden Storage Cabinet",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/340280519b41455520500f6caa24a8c8.jpg_720x720q80.jpg",
+    "price": "$250",
+    "description": "A sturdy wooden storage cabinet with multiple drawers and shelves for organized living spaces."
+  },
+  {
+    "title": "Metal Locker Storage",
+    "image": "https://foxhollowcottage.com/wp-content/uploads/2014/03/Home-Decor-Storage-Idea-Solution-14.jpg",
+    "price": "$180",
+    "description": "A durable metal locker storage unit, perfect for industrial or modern interiors."
+  },
+  {
+    "title": "Minimalist Cube Organizer",
+    "image": "https://homewithmarieza.com/wp-content/uploads/2022/02/storageroom023.jpg",
+    "price": "$120",
+    "description": "A sleek cube organizer, ideal for storing books, decor, and small items in minimal spaces."
+  },
+  {
+    "title": "Vintage Chest Trunk",
+    "image": "https://i.pinimg.com/736x/d1/fc/1b/d1fc1b72ca5e11b630ec4ef0425886fe.jpg",
+    "price": "$300",
+    "description": "A vintage chest trunk for stylish storage with a classic touch."
+  },
+  {
+    "title": "Plastic Modular Storage Box",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkD0uPYRxFL6z0yILMvma6QHNmHMh8wPrGvw&s",
+    "price": "$90",
+    "description": "Lightweight and stackable plastic storage boxes for easy organization."
+  },
+  {
+    "title": "Corner Storage Shelf",
+    "image": "https://image.made-in-china.com/202f0j00SMaqNEgyAckI/Modern-Minimalist-Wall-Shelf-Living-Room-Bedroom-Wall-Decoration-Storage.webp",
+    "price": "$150",
+    "description": "A corner shelf unit that maximizes storage space while saving floor area."
+  }
+]

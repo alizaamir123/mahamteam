@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Modern Arc Floor Lamp",
+    "image": "/images/floor1.jpg",
+    "price": "$180",
+    "description": "A sleek arc floor lamp with a metal finish, perfect for modern living rooms and reading corners."
+  },
+  {
+    "title": "Classic Tripod Floor Lamp",
+    "image": "/images/floor2.jpg",
+    "price": "$220",
+    "description": "A stylish tripod floor lamp with fabric shade, adding elegance to any room."
+  },
+  {
+    "title": "Adjustable LED Floor Lamp",
+    "image": "/images/floor3.jpg",
+    "price": "$150",
+    "description": "An energy-efficient LED floor lamp with adjustable brightness and flexible head for task lighting."
+  },
+  {
+    "title": "Rustic Wooden Floor Lamp",
+    "image": "/images/floor4.jpg",
+    "price": "$200",
+    "description": "A wooden floor lamp with a vintage design, ideal for rustic or farmhouse interiors."
+  },
+  {
+    "title": "Minimalist Slim Floor Lamp",
+    "image": "/images/floor5.jpg",
+    "price": "$130",
+    "description": "A slim, minimalist floor lamp that fits perfectly in small spaces or corners."
+  },
+  {
+    "title": "Industrial Metal Floor Lamp",
+    "image": "/images/floor6.jpg",
+    "price": "$250",
+    "description": "A sturdy industrial-style floor lamp with exposed bulbs, perfect for loft-style interiors."
+  }
+]

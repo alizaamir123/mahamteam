@@ -1,0 +1,132 @@
+/* Hero Section */
+.contact.hero-section {
+  height: 70vh;
+  background: url("/images/heroc.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px orange;
+}
+
+/* Animation for main heading */
+.animated-main-heading {
+  color: orange;
+  animation: fadeUp 1.2s ease-in-out forwards;
+}
+
+.animated-main-heading span {
+  color: orange;
+}
+
+.orange-text {
+  color: orange;
+}
+
+/* Fade up animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gradient Section */
+.contact-section-gradient {
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+  padding: 40px 20px;
+  color: white;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+/* Feedback-style input fields */
+.form-field {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.form-field::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-field:focus {
+  border-color: orange;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+textarea.form-field {
+  resize: none;
+}
+
+/* Send Button */
+.send-btn {
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  border: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.send-btn:hover {
+  background-color: #cc8400;
+}
+
+/* Contact Image */
+.contact-img {
+  overflow: hidden;
+  border-radius: 15px;
+  height: 400px;
+  width: 500px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.contact-img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+/* Map Section */
+.map-section iframe {
+  display: block;
+  width: 100%;
+  height: 550px;
+  filter: invert(90%) hue-rotate(180deg);
+}

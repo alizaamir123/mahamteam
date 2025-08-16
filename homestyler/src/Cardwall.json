@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Classic Wall Sconce",
+    "image": "/images/wall1.webp",
+    "price": "$80",
+    "description": "A timeless wall sconce with a soft fabric shade, perfect for ambient lighting in hallways or living rooms."
+  },
+  {
+    "title": "Modern LED Wall Light",
+    "image": "/images/wall2.webp",
+    "price": "$120",
+    "description": "A sleek, energy-efficient LED wall light ideal for contemporary interiors."
+  },
+  {
+    "title": "Vintage Brass Wall Lamp",
+    "image": "/images/wall3.jpg",
+    "price": "$95",
+    "description": "A decorative brass wall lamp with vintage detailing, adding charm to any space."
+  },
+  {
+    "title": "Industrial Wall Sconce",
+    "image": "/images/wall4.jpg",
+    "price": "$110",
+    "description": "A rugged industrial-style wall sconce with exposed bulbs, perfect for loft or modern industrial interiors."
+  },
+  {
+    "title": "Adjustable Reading Wall Lamp",
+    "image": "/images/wall5.webp",
+    "price": "$140",
+    "description": "An adjustable wall lamp with swivel head, ideal for reading corners and bedrooms."
+  },
+  {
+    "title": "Rustic Wooden Wall Light",
+    "image": "/images/wall6.webp",
+    "price": "$130",
+    "description": "A wall light with a rustic wooden design, perfect for farmhouse or rustic-style interiors."
+  }
+]

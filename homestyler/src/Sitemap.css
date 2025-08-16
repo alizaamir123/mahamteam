@@ -1,0 +1,110 @@
+/* Hero Section */
+.site.hero-section {
+  height: 60vh;
+  background: url("../public/images/heros.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.site.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.site.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px rgb(202, 160, 92);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sitemap Container */
+.sitemap {
+  background: linear-gradient(135deg, #c3a679, #6a6453, #333333);
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.sitemap-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 50px;
+  justify-items: start;
+}
+
+.sitemap-column h3 {
+  color: orange;
+  text-shadow: 0px 0px 5px black;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.sitemap-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sitemap-column li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #f5f5f5;
+  transition: color 0.3s ease;
+}
+
+.sitemap-column li a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+/* Hover - turn both icon and text black */
+.sitemap-column li:hover,
+.sitemap-column li:hover a,
+.sitemap-column li:hover svg {
+  color: black;
+}
+
+.center-column {
+  justify-self: center;
+  text-align: center;
+}
+
+.center-column ul {
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sitemap-container { gap: 30px; }
+}
+
+@media (max-width: 768px) {
+  .sitemap-container { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .sitemap-column h3 { font-size: 1.3rem; }
+  .sitemap-column li { font-size: 1rem; }
+}
+
+@media (max-width: 480px) {
+  .sitemap { padding: 30px 15px; }
+  .sitemap-container { grid-template-columns: 1fr; }
+  .sitemap-column h3 { font-size: 1.2rem; }
+  .sitemap-column li { font-size: 0.95rem; }
+}

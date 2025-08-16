@@ -1,0 +1,290 @@
+/* =========================
+   Full Center Overlay
+   ========================= */
+/* Full Center Overlay - moved slightly lower */
+.overlay-center {
+  top: 58% !important; /* was 50% — now lower */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 900px;
+  z-index: 2;
+}
+
+/* =========================
+   Carousel Title Styling
+   ========================= */
+.carousel-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: white; /* White text */
+ animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 0px 10px orange !important;
+  
+  margin: 0;
+}
+
+/* =========================
+   Carousel Paragraph Styling
+   ========================= */
+.carousel-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: white; /* White text */
+  text-shadow: 5px 5px 20px rgba(98, 94, 94, 0.8) !important;
+  
+  margin-top: 15px;
+  opacity: 0;
+  animation: fadeUp 1s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* =========================
+   Contact Page Heading Animation
+   ========================= */
+.contact.hero-section h1 {
+  animation: fadeUp 1s ease-in-out forwards;
+  text-shadow: 5px 5px 20px orange;
+}
+
+/* =========================
+   Animated Main Heading
+   ========================= */
+.animated-main-heading {
+  color: orange;
+  animation: fadeUp 1.2s ease-in-out forwards;
+}
+
+.animated-main-heading span {
+  color: orange;
+}
+
+/* Utility orange text */
+.orange-text {
+  color: orange;
+}
+
+/* =========================
+   Logo Text Styling
+   ========================= */
+.logo-text {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(255, 165, 0, 0.9), 
+               2px 2px 20px rgba(0, 0, 0, 0.8);
+  filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.7)) blur(1px);
+  opacity: 0.95;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-text:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* =========================
+   Heart Icon Styling
+   ========================= */
+.corner-heart {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: red;
+  filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.7)) blur(1px);
+  opacity: 0.95;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.corner-heart:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+/* =========================
+   Icon Positioning
+   ========================= */
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.heart-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+/* =========================
+   Animations
+   ========================= */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatText {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* =========================
+   Carousel Slide Wrapper
+   ========================= */
+.carousel-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+/* =========================
+   Dark or Tinted Overlay
+   ========================= */
+.carousel-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+  filter: blur(1px); /* Optional blur */
+  z-index: 1; /* Below text, above image */
+}
+
+/* =========================
+   Carousel Image Styling
+   ========================= */
+.carousel-img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+/* ===== Slider ===== */
+.home-carousel {
+  height: 100vh;
+  margin-bottom: 0; /* ensure no space below slider */
+}
+
+.home-carousel .carousel-inner,
+.home-carousel .carousel-item {
+  height: 100%;
+}
+
+.carousel-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20%;
+}
+
+.overlay-center {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 20px 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+}
+
+.carousel-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-shadow: 0 6px 24px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-text {
+  font-size: 1.1rem;
+}
+
+/* ===== Design Gallery (no gap & dark gradient) ===== */
+.design-gallery {
+  background: linear-gradient(180deg, #000000, #2c2c2c);
+  margin-top: 0; /* remove any gap after slider */
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Cards */
+.gallery-card {
+  border: 2px solid transparent;
+  background: #1a1a1a;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.gallery-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  border-color: orange; /* Orange border on hover */
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 992px) {
+  .carousel-title { font-size: 2rem; }
+  .carousel-text { font-size: 1rem; }
+}
+
+@media (max-width: 768px) {
+  .home-carousel { height: 80vh; }
+  .carousel-title { font-size: 1.8rem; }
+  .carousel-text { font-size: 0.95rem; }
+  .overlay-center { padding: 16px 22px; }
+}
+
+@media (max-width: 576px) {
+  .home-carousel { height: 70vh; }
+  .carousel-title { font-size: 1.6rem; }
+  .carousel-text { font-size: 0.9rem; }
+  .gallery-title { font-size: 2rem; }
+}
+.feature-box {
+  background: #1a1a1a;
+  color: white;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  border-radius: 10px;
+  min-height: 280px; /* Bigger card height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-box h4 {
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.feature-box:hover {
+  border-color: orange;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .feature-box {
+    min-height: auto;
+  }
+}

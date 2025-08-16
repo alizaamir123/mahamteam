@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Modern Accent Chair",
+    "image": "/images/chair1.jpg",
+    "price": "$120",
+    "description": "A stylish modern accent chair with soft upholstery and wooden legs, perfect for adding character to any room."
+  },
+  {
+    "title": "Luxury Recliner Chair",
+    "image": "/images/chair2.jpg",
+    "price": "$350",
+    "description": "A plush leather recliner with adjustable backrest and footrest for ultimate relaxation."
+  },
+  {
+    "title": "Minimalist Dining Chair",
+    "image": "/images/chair3.webp",
+    "price": "$80",
+    "description": "A clean, simple dining chair with a sleek wooden frame and comfortable cushioned seat."
+  },
+  {
+    "title": "Vintage Armchair",
+    "image": "/images/chair4.jpg",
+    "price": "$150",
+    "description": "A retro-inspired armchair with rich fabric and curved armrests for a timeless look."
+  },
+  {
+    "title": "Outdoor Lounge Chair",
+    "image": "/images/chair5.webp",
+    "price": "$200",
+    "description": "A weather-resistant lounge chair with breathable mesh fabric, perfect for patios and gardens."
+  }
+]

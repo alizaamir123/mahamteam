@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Modern Kitchen Design",
+    "image": "/images/ki1.jpg",
+    "description": "Sleek kitchen with open shelves, minimalist style, and seamless cabinetry.",
+    "link": "/kitchen/modern"
+  },
+  {
+    "title": "Classic Wooden Kitchen",
+    "image": "/images/ki2.jpg",
+    "description": "Warm wood tones with timeless craftsmanship for a cozy, traditional feel.",
+    "link": "/kitchen/classic"
+  },
+  {
+    "title": "Luxury White Kitchen",
+    "image": "/images/ki3.jpg",
+    "description": "All-white kitchen with marble countertops, gold accents, and elegant lighting.",
+    "link": "/kitchen/luxury"
+  },
+  {
+    "title": "Compact Urban Kitchen",
+    "image": "/images/ki4.jpg",
+    "description": "Space-saving kitchen with smart storage and a modern color palette.",
+    "link": "/kitchen/compact"
+  },
+  {
+    "title": "Rustic Farmhouse Kitchen",
+    "image": "/images/ki5.webp",
+    "description": "Farmhouse kitchen with rustic charm, vintage fixtures, and wood finishes.",
+    "link": "/kitchen/farmhouse"
+  },
+  {
+    "title": "Industrial Loft Kitchen",
+    "image": "/images/ki6.jpg",
+    "description": "Industrial kitchen with exposed pipes, brick textures, and metal accents.",
+    "link": "/kitchen/industrial"
+  }
+]
